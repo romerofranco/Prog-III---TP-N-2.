@@ -70,3 +70,49 @@ button:hover{
     color: #333;
     font-weight: bold;
 }
+
+/* ========================
+    DESTACADOS
+===========================*/
+
+#contador {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Usaremos el metodo de Flexbox para que se acomoden las tarjetas */
+#contenedor-tarjetas {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tarjeta{
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tarjeta h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    color: #666;
+}
+
+.tarjeta.seleccionada {
+    border-color: #f0a500;
+    background-color: #fff3cd;
+}
