@@ -116,3 +116,41 @@ button:hover{
     border-color: #f0a500;
     background-color: #fff3cd;
 }
+
+/* ============================
+    LISTADO
+=============================== */
+
+#contenedor-botones{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.pais{
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.pais h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pais p {
+    font-size: 14px;
+    color: #666;
+}
+
+#contenedor-paises{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
